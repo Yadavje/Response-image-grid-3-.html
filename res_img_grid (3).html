@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Responsive Image Grid</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="https://wallpapercave.com/wp/wp8980506.jpg" style="width:100%">
+    <img src="https://1.bp.blogspot.com/-_vfLFYJowq4/X9hPgAyFEaI/AAAAAAAAOgM/13xHUTUw-TQlxKL9Q_oEamx_qod-25pxQCLcBGAsYHQ/s0/iron-man-2020-5k-2t-1440x2560.jpg" style="width:100%">
+    <img src="https://w0.peakpx.com/wallpaper/135/412/HD-wallpaper-iron-man-death-iron-man-sad.jpg" style="width:100%">
+    <img src="https://images.hdqwalls.com/wallpapers/iron-man-4k.jpg" style="width:100%">
+    <img src="https://vsthemes.org/uploads/posts/2022-04/1650278853_18-04-2022-15_46_14.webp" style="width:100%">
+    <img src="https://w0.peakpx.com/wallpaper/992/600/HD-wallpaper-captain-america-iron-man-thor-avengers.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="https://p4.wallpaperbetter.com/wallpaper/713/116/34/spider-man-wallpaper-preview.jpg" style="width:100%">
+    <img src="https://e0.pxfuel.com/wallpapers/498/209/desktop-wallpaper-spider-man-2018-playstation-4-pure-ultra-iron-man-for-thumbnail.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/25/00/a2/2500a2237ab77b1881b974f23db7eb6f.jpg" style="width:100%">
+    <img src="https://images.hdqwalls.com/download/2021-spiderman-no-way-home-5k-xb-1152x864.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/dc/e2/60/dce2600aa01749359436c0e99ab7c440.jpg" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt6BuImTC5J7aV-k1V9IiOicAndLSReeFPxA&usqp=CAU" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="https://wallpapers.com/images/hd/doctor-strange-teleportation-3eincw7hgv8ho7ns.jpg" style="width:100%">
+    <img src="https://images.hdqwalls.com/download/dr-strange-2020-42-1280x800.jpg" style="width:100%">
+    <img src="https://wallpaperaccess.com/full/848351.jpg" style="width:100%">
+    <img src="https://images6.alphacoders.com/112/1120602.jpg" style="width:100%">
+    <img src="https://rare-gallery.com/uploads/posts/350972-4k-wallpaper.jpg" style="width:100%">
+    <img src="https://wallpapercave.com/wp/wp3105943.jpg" style="width:100%">
+    <img src="https://wallpapercave.com/wp/wp4503509.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/is-loki-alive-1618935098.jpeg" style="width:100%">
+    <img src="https://images.bauerhosting.com/legacy/media/60ee/bf80/396b/fe98/d532/d2dc/loki-episode-3.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill" style="width:100%">
+    <img src="https://gumlet.assettype.com/filmcompanion%2F2022-12%2F80f09d39-a305-48a7-80f9-4011707d1d31%2Fyear_enders_marvel_1.jpg?auto=format%2Ccompress&fit=max&w=400&dpr=2.6" style="width:100%">
+    <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/12/thor-and-loki.jpg" style="width:100%">
+    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/1143/1011143-h-c92ecc9d0ace" style="width:100%">
+    <img src="https://upload.wikimedia.org/wikipedia/en/d/da/Loki_%28video_game%29.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
+
